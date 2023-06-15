@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to the News Site </title>
+    <link href="news.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>The News Site</h1>
+
+
+    <form action="returnmain.php" method="post">
+        <input type="submit" value="go to main page without an account">
+    </form> <br> <br>
+
+    <h2> Log in!</h2>
+    <!--Log in as existing user-->
+    <div class="loginform">
+        <form class="loginform" action="user.php" method="POST">
+            <label> Username: </label>
+            <input type="text" name="username" required>
+            <label> Password: </label>
+            <input type="password" name="password" required>
+            <input type="submit" value="Log In">
+        </form>
+    </div> <br> <br>
+
+    <!--Register the account-->
+    <h2>Don't have an account ? Register!</h2>
+    <ul>
+        <li>Click here to join us! <a href="register.html">Register!</a></li>
+    </ul>
+</body>
+
+</html>
+

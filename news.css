@@ -1,0 +1,106 @@
+body {
+    background: #F5FFFA;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1 {
+    text-shadow: 1px 3px yellow;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    width: 300px;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+    input[type="submit"]:hover {
+        background-color: yellow;
+        border-color: white;
+        color: black;
+        border: 2px solid green;
+        border-radius: 20px;
+    }
+
+.story, .comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 30px;
+}
+    .story form, .comment form {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .comment p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+.add, .edit {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+
+.add {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username {
+    font-weight: 900;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FAFAD2;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+nav input[type='submit'] {
+    margin-top: 0px;
+    border-color: transparent;
+    border: 2px solid green;
+    border-radius: 30px;
+
+}
+
+nav input[type='submit']:hover {
+    height: 35px;
+    border-color: transparent;
+    border: 2px solid green;
+    border-radius: 30px;  
+
+}
+

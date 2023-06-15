@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to the News Site </title>
+    <link href="news.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>The News Site</h1>
+
+
+    <!--User can register the web site-->
+    <h2>Register!</h2>
+    <div>
+        <form class="loginform" action="adduser.php" method="POST">
+            <label> Create a new username: </label>
+            <input type="text" name="newuser" required>
+            <label> Create a new password: </label>
+            <input type="password" name="newpassword" required>
+            <label for="userPasswordCheck">Password Check: </label>
+            <input type="password" id="userPasswordCheck" name="userPasswordCheck" required=True><br>
+            <input type='submit' value='Sign Up'>
+        </form>
+    </div> <br> <br>
+
+    <p>Already have an account?</p>
+    <ul>
+        <li>Click here to login! <a href="login.html">Go back!</a></li>
+    </ul>
+
+
+
+</body>
+
+</html>
